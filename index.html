@@ -1,0 +1,27 @@
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.1.0/jquery.countdown.js"></script>
+  <script src="./assets/js.js"></script>
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body id="body" onload="init_fun()">
+  <div class="countdown" style="margin-top:0px;">
+    <strong><span id="title">NEW YEAR</span><br/><span id="subtitle">2019</span></strong> <span id="clock12"></span>
+  </div>
+  <input type='file' onchange="readURL(this);" class="pickfile" />
+
+  <!-- Trigger/Open The Modal -->
+  <button id="myBtn">Info</button>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p>Developed by <a href="https://nikhiltanni.azurewebsites.net/" target="_blank" title="Nikhil Tanni">Nikhil Tanni</a></p>
+    </div>
+
+  </div>
+</body>
