@@ -185,11 +185,17 @@ body{
   #title,#subtitle{
     left: 30%;
   }
+  #title{
+    top: -6%
+  }
 }
 
 @media only screen and (max-width: 360px){
   #title,#subtitle{
     left: 15%;
+  }
+  #title{
+    top: -6%
   }
   #hours{
     font-size: 450%;
@@ -217,6 +223,9 @@ body{
 @media only screen and (max-width: 280px){
   #title,#subtitle{
     left: 10%;
+  }
+  #title{
+    top: -6%
   }
   #hours{
     font-size: 350%;
